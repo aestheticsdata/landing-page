@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  cursor-effects:
+    specifier: ^1.0.12
+    version: 1.0.12
+
 devDependencies:
   tailwindcss:
     specifier: ^3.3.3
@@ -136,6 +141,10 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
     dev: true
+
+  /cursor-effects@1.0.12:
+    resolution: {integrity: sha512-HDaKd+GJjveac1g52krmFiJJg0HwnxCeKgktGaPpbv6/7z8/krYgmTpDZW9GZ01S5783R6cPhEHAgHWQEm211w==}
+    dev: false
 
   /didyoumean@1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
