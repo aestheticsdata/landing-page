@@ -15,190 +15,192 @@
   <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
 </head>
 
-<body class="bg-container min-h-screen flex">
-  <div class="flex items-center flex-1">
+<html>
+  <body class="bg-container min-h-screen">
+    <div class="flex items-center flex-1 flex-col md:flex-row">
 
-    <div class="flex w-1/2 justify-center items-center h-screen">
-      <div class="flex flex-col space-y-2">
+      <div class="flex w-full md:w-1/2 justify-center items-center h-[200px] md:h-screen">
+        <div class="flex flex-col space-y-2">
 
-        <div class="font-Exo font-thin text-logo md:text-5xl lg:text-6xl xl:text-7xl">
-          1991COMPUTER
-        </div>
-
-        <div class="flex space-x-4">
-          <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
-            <a href="https://github.com/aestheticsdata" target="_blank">
-              <img
-                height="32"
-                width="32"
-                src="../assets/icons/github.svg"
-                alt="github-logo"
-              />
-            </a>
+          <div class="font-Exo font-thin text-logo md:text-5xl lg:text-6xl xl:text-7xl">
+            1991COMPUTER
           </div>
-          <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
-            <a href="https://www.linkedin.com/in/sebastien-cabel-39449345/" target="_blank">
-              <img
-                height="32"
-                width="32"
-                src="../assets/icons/linkedin.svg"
-                alt="linkedin-logo"
-              />
-            </a>
-          </div>
-          <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
-            <a href="https://twitter.com/cosmokaat1" target="_blank">
-              <img
-                height="32"
-                width="32"
-                src="../assets/icons/twitter.svg"
-                alt="twitter-logo"
-              />
-            </a>
+
+          <div class="flex space-x-4">
+            <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
+              <a href="https://github.com/aestheticsdata" target="_blank">
+                <img
+                  height="32"
+                  width="32"
+                  src="../assets/icons/github.svg"
+                  alt="github-logo"
+                />
+              </a>
+            </div>
+            <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
+              <a href="https://www.linkedin.com/in/sebastien-cabel-39449345/" target="_blank">
+                <img
+                  height="32"
+                  width="32"
+                  src="../assets/icons/linkedin.svg"
+                  alt="linkedin-logo"
+                />
+              </a>
+            </div>
+            <div class="border-b-2 border-container hover:border-b-2 hover:border-logo py-1">
+              <a href="https://twitter.com/cosmokaat1" target="_blank">
+                <img
+                  height="32"
+                  width="32"
+                  src="../assets/icons/twitter.svg"
+                  alt="twitter-logo"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+
+
+      <div class="flex flex-col w-full md:w-1/2 bg-project-pane h-screen overflow-y-auto text-white space-y-4 py-2">
+
+        <a
+          href="http://pfa.1991computer.com/"
+          target="_blank"
+          class="flex bg-container rounded-md mx-4
+            hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
+        >
+          <div class="w-1/2 p-4">
+            <img
+              class="rounded-md"
+              src="../assets/screenshots/1991computer-pfa.png"
+              alt="pfa"
+            />
+          </div>
+          <div class="w-1/2 p-4 flex flex-col space-y-2">
+            <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
+              Personal Finance Assistant
+            </div>
+            <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
+              <li>
+                Create a budget and track your spending
+              </li>
+              <li>
+                Set financial goals
+              </li>
+              <li>
+                Get insights into your spending
+              </li>
+            </ul>
+          </div>
+        </a>
+
+        <a
+          href="http://bkmk.1991computer.com/"
+          target="_blank"
+          class="flex bg-container rounded-md mx-4
+            hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
+        >
+          <div class="w-1/2 p-4">
+            <img
+              class="rounded-md"
+              src="../assets/screenshots/1991computer-bkmk.png"
+              alt="bkmk"
+            />
+          </div>
+          <div class="w-1/2 p-4 flex flex-col space-y-2">
+            <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
+              Bookmark app
+            </div>
+            <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
+              <li>
+                Organize your bookmarks
+              </li>
+              <li>
+                Set reminders
+              </li>
+              <li>
+                Search and filter your bookmarks
+              </li>
+              <li>
+                can be used as a TODO list
+              </li>
+            </ul>
+          </div>
+        </a>
+
+        <a
+          href="http://1991computer.com/conway-gol/"
+          target="_blank"
+          class="flex bg-container rounded-md mx-4
+            hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
+        >
+          <div class="w-1/2 p-4">
+            <img
+              class="rounded-md"
+              src="../assets/screenshots/1991computer-conway-gol.png"
+              alt="conway game of life"
+            />
+          </div>
+          <div class="w-1/2 p-4 flex flex-col space-y-2">
+            <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
+              Conway's game of life
+            </div>
+            <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
+              <li>
+                Generate random patterns
+              </li>
+              <li>
+                Draw your own patterns
+              </li>
+              <li>
+                Load patterns from a huge library with wiki links
+              </li>
+            </ul>
+          </div>
+        </a>
+
+        <a
+          href="http://1991computer.com/3dengine/"
+          target="_blank"
+          class="flex bg-container rounded-md mx-4
+            hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
+        >
+          <div class="w-1/2 p-4">
+            <img
+              class="rounded-md"
+              src="../assets/screenshots/1991computer-3d-engine-light.png"
+              alt="3d-engine"
+            />
+          </div>
+          <div class="w-1/2 p-4 flex flex-col space-y-2">
+            <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
+              Minimal 3D engine
+            </div>
+            <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
+              <li>
+                Play / Pause
+              </li>
+              <li>
+                FPS counter
+              </li>
+              <li>
+                Controls :
+                <div>- z-offset</div>
+                <div>- pitch</div>
+                <div>- yaw</div>
+                <div>- roll</div>
+              </li>
+            </ul>
+          </div>
+        </a>
+
+      </div>
+
     </div>
-
-
-
-    <div class="flex flex-col w-1/2 bg-project-pane h-screen overflow-y-auto text-white space-y-4 py-2">
-
-      <a
-        href="http://pfa.1991computer.com/"
-        target="_blank"
-        class="flex bg-container rounded-md mx-4
-          hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
-      >
-        <div class="w-1/2 p-4">
-          <img
-            class="rounded-md"
-            src="../assets/screenshots/1991computer-pfa.png"
-            alt="pfa"
-          />
-        </div>
-        <div class="w-1/2 p-4 flex flex-col space-y-2">
-          <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
-            Personal Finance Assistant
-          </div>
-          <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
-            <li>
-              Create a budget and track your spending
-            </li>
-            <li>
-              Set financial goals
-            </li>
-            <li>
-              Get insights into your spending
-            </li>
-          </ul>
-        </div>
-      </a>
-
-      <a
-        href="http://bkmk.1991computer.com/"
-        target="_blank"
-        class="flex bg-container rounded-md mx-4
-          hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
-      >
-        <div class="w-1/2 p-4">
-          <img
-            class="rounded-md"
-            src="../assets/screenshots/1991computer-bkmk.png"
-            alt="bkmk"
-          />
-        </div>
-        <div class="w-1/2 p-4 flex flex-col space-y-2">
-          <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
-            Bookmark app
-          </div>
-          <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
-            <li>
-              Organize your bookmarks
-            </li>
-            <li>
-              Set reminders
-            </li>
-            <li>
-              Search and filter your bookmarks
-            </li>
-            <li>
-              can be used as a TODO list
-            </li>
-          </ul>
-        </div>
-      </a>
-
-      <a
-        href="http://1991computer.com/conway-gol/"
-        target="_blank"
-        class="flex bg-container rounded-md mx-4
-          hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
-      >
-        <div class="w-1/2 p-4">
-          <img
-            class="rounded-md"
-            src="../assets/screenshots/1991computer-conway-gol.png"
-            alt="conway game of life"
-          />
-        </div>
-        <div class="w-1/2 p-4 flex flex-col space-y-2">
-          <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
-            Conway's game of life
-          </div>
-          <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
-            <li>
-              Generate random patterns
-            </li>
-            <li>
-              Draw your own patterns
-            </li>
-            <li>
-              Load patterns from a huge library with wiki links
-            </li>
-          </ul>
-        </div>
-      </a>
-
-      <a
-        href="http://1991computer.com/3dengine/"
-        target="_blank"
-        class="flex bg-container rounded-md mx-4
-          hover:bg-container-hover hover:shadow-login hover:cursor-pointer transition-colors ease-linear duration-100"
-      >
-        <div class="w-1/2 p-4">
-          <img
-            class="rounded-md"
-            src="../assets/screenshots/1991computer-3d-engine-light.png"
-            alt="3d-engine"
-          />
-        </div>
-        <div class="w-1/2 p-4 flex flex-col space-y-2">
-          <div class="uppercase font-semibold border--b-white border-b sm:text-xs lg:text-sm xl:text-base 2xl:text-lg">
-            Minimal 3D engine
-          </div>
-          <ul class="text-sm list-disc ml-4 sm:text-xs lg:text-sm">
-            <li>
-              Play / Pause
-            </li>
-            <li>
-              FPS counter
-            </li>
-            <li>
-              Controls :
-              <div>- z-offset</div>
-              <div>- pitch</div>
-              <div>- yaw</div>
-              <div>- roll</div>
-            </li>
-          </ul>
-        </div>
-      </a>
-
-    </div>
-
-  </div>
-</body>
+  </body>
+</html>
 
 <!-- https://github.com/tholman/cursor-effects  -->
 <!-- when switching this html page to react, use the npm module with import { bubbleCursor } from "cursor-effects";-->
